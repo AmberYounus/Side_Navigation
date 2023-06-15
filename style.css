@@ -2,6 +2,7 @@
   font-family: cursive;
   transition: background-color 0.5s;
 }
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -23,13 +24,16 @@
   display: block;
   transition: 0.3s;
 }
+
 .sidenav a:hover {
   color: #f1f1f1;
 }
+
 h2 {
   text-align: center;
   font-size: 28px;
 }
+
 .sidenav .closebtn {
   position: absolute;
   right: 25px;
@@ -37,18 +41,22 @@ h2 {
   font-size: 36px;
   margin-left: 50px;
 }
+
 span {
   font-size: 33px;
   margin-left: 90px;
 }
+
 p {
   font-size: 23px;
   padding-left: 85px;
 }
+
 #main {
   transition: margin-left 0.5s;
   padding: 16px;
 }
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 84px;
