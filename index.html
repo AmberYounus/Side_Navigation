@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidenav Push</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="#"><h3>Sidenav</h3></a>
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Services</a>
+    </div>
+    <div id="main">
+      <h2>Sidenav Push</h2>
+      <p>
+        To access the side navigation menu, click the element below, then drag
+        this content to the right. When the sidenav is opened, you'll notice
+        that we add a black see-through background colour to the body.
+      </p>
+      <span onclick="openNav()">&#9776;</span>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
